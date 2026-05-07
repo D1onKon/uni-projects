@@ -1,2 +1,60 @@
-.vscode/ 
-*.exe 
+# ========================
+# VSCode
+# ========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ========================
+# C
+# ========================
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+
+# Debugger
+*.dSYM/
+*.su
+
+# ========================
+# Python
+# ========================
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ========================
+# Windows
+# ========================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ========================
+# Γενικά
+# ========================
+*.log
+*.tmp
+*.bak
